@@ -79,14 +79,16 @@ docker-compose up --build
  ```
 ## 🔍 Accès aux services
 
-API : http://localhost:5000/api/employees
-Healthcheck : http://localhost:5000/health
-pgAdmin : http://localhost:5050/
+- API : http://localhost:5000/api/employees
+- Healthcheck : http://localhost:5000/health
+- pgAdmin : http://localhost:5050/
 
 ## Scripts disponibles
 
+```
 npm run dev       # Lancer en mode développement
 npm start         # Lancer en production
 npm run lint      # Vérification du code
 npm test          # Tests
 npm run build     # Build
+```
