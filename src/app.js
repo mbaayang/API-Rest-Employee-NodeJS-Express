@@ -19,4 +19,11 @@ app.get("/", (req, res) => {
   res.send("Welcome to the Employee API");
 });
 
+app.get('/health', (req, res) => {
+  res.status(200).json({
+    status: 'UP',
+    timestamp: new Date()
+  });
+});
+
 module.exports = app;
